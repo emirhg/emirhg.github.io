@@ -1,0 +1,9 @@
+Términos de uso
+
+Este programa se distribuye cómo es y sin ninguna garantía. El desarrollador no se hace responsable
+por daños que pudieran resultar al equipo.
+
+El usuario tiene control absoluto en todo momento de sus datos. Esta aplicación no recolecta
+ningún tipo de información ni instala cookies (rastreadores) en el equipo del usuario.
+
+El usuario es enteramente responsable del usuario que pueda darle a esta aplicación.
