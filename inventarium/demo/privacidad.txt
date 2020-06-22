@@ -1,0 +1,8 @@
+Aviso de privacidad
+
+La aplicación hace uso de la camara del teléfono para poder leer el código de barras.
+
+El usuario tiene control absoluto en todo momento de sus datos y no se comparte nada con el desarrollador.
+Esta aplicación no recolecta ningún tipo de información ni instala cookies (rastreadores) en el equipo del usuario.
+
+Para mantener el desarollo sin publicidad aceptamos donativos https://emirhg.github.io/donate
