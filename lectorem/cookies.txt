@@ -1,0 +1,4 @@
+# Política de Cookies
+
+Para poder mostrar publicidad dirigida al perfil del usuario, se utilizan
+_cookies_ para dar seguimiento a las visitas de un usuario.
