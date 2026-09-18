@@ -1,38 +1,265 @@
-<HTML>
-<HEAD>
-  <TITLE> Emir Herrera González </TITLE>
-</HEAD>
+<!DOCTYPE html>
 
-<BODY>
-  <h1>Emir Herrera González</h1>
+         
+<html lang="en" class="container">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#087cfa" />
 
-  <section id="reconocimientos">
-    <h2>Academia</h2>
-    <ul>
-      <li><a href="htts://telematica.itam.mx">Ingenieria en Telemática.</a> Pasante por el <a target="_blank" href="https://www.itam.mx">Instituto Tecnológico Autónomo de México (ITAM)</a> </li>
-      <li><a href="htts://computacion.itam.mx">Ingenieria en Computación.</a> Pasante por el <a target="_blank" href="https://www.itam.mx">Instituto Tecnológico Autónomo de México (ITAM)</a> </li>
-      <li>Técnico en Computación por el Centro de Bachilletaro Tecnológico Industrial y de Servicios Número 134 (CBTis 134). <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action">Cédula 7206816</a></li>
-    </ul>
+      <meta name="description" content="CV Ingeniero de software (es_MX)" />
+  <meta name="keywords" content="cv resume" />
+  <meta name="author" content="" />
+
+  <title>CV Ingeniero de software (es_MX)</title>
+
+  <base href="/" />
+  <link rel="canonical" href="/" />
+  <link rel="icon" href="" />
+  <link
+    rel="mask-icon"
+    href=""
+    color="#000"
+  />
+  <link rel="apple-touch-icon" href="" />
+
+  <link href="https://cdnjs.cloudflare.com" rel="preconnect" />
+  <link
+    href="https://unpkg.com/chota@0.8.1/dist/chota.min.css"
+    rel="stylesheet"
+    media="screen, print"
+  />
+
+  <style>
+    :root {
+      --color-primary: #087cfa;
+      --grid-maxWidth: 100rem;
+      --grid-gutter: 1.5rem;
+      --font-size: 1.4rem;
+      --font-family-sans: Roboto Slab;
+    }
+    /* CV Styles - from target output */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0d1117;
+    --bg-secondary-color: #131316;
+    --font-color: #c9d1d9;
+    --color-grey: #ccc;
+    --color-darkGrey: #777;
+  }
+}
+
+body {
+  color-scheme: light dark;
+  font-family: Roboto Slab, sans-serif;
+}
+
+header h3 { margin-bottom: 0.35rem; }
+header dl { margin: 0; }
+header img { height: 23rem; }
+header .fab { font-size: 3rem; }
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  padding: calc(var(--grid-gutter) / 2);
+  float: left;
+}
+
+img { border-radius: 1rem; }
+
+#contactInformation { margin-right: calc(var(--grid-gutter) * 2); }
+
+section > ul > li { list-style: none; }
+
+section ul.customBullet { list-style: square; }
+
+h3 { font-size: 1.25em; display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+
+h3 .title-group { display: inline; flex: 1; }
+
+h3 .date-range { flex-shrink: 0; white-space: nowrap; margin-left: auto; }
+
+dd {
+  display: inline;
+  margin: 0;
+}
+
+dd:after {
+  display: block;
+  content: '';
+}
+
+dt { display: inline-block; }
+
+i.fas { min-width: 3rem; }
+
+h4 { font-size: 1em; display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+
+h4 .title-group { display: inline; flex: 1; }
+
+h4 .date-range { flex-shrink: 0; white-space: nowrap; margin-left: auto; }
+
+p { margin-bottom: 0.5rem; }
+
+section > ul > li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section > ul > li:first-child {
+  margin-top: 1rem;
+}
+
+ul li dl {
+  padding-left: 30px;
+  margin-top: 0;
+}
+
+ul li dl dt:before { content: "- "; }
+
+.noBottomMargin { margin-bottom: 0; }
+.noTopMargin { margin-top: 0; }
+
+#contactInformation h2, #personalInformation h2 { font-size: 1.5em; }
+
+@media print {
+  img {
+    max-width: 180px;
+    height: auto;
+  }
+}
+
+    h1 { text-align: center; }
+    main section ul li p span.entry-title { display: inline; margin: 0; padding: 0; font-size: 1.45em; line-height: 1.7; font-weight: 600; }
+    .cv-links-section { margin-top: 3rem; margin-bottom: 2rem; }
+    .cv-links-section .row { display: flex !important; flex-flow: row nowrap !important; align-items: center !important; gap: 1rem !important; margin-left: 0 !important; margin-right: 0 !important; }
+    .cv-links-section .col { flex: 1; padding: 0 !important; margin-left: 0 !important; margin-right: 0 !important; }
+    .cv-links-section .col-auto { flex: 0 0 auto; padding: 0 !important; margin-left: 0 !important; margin-right: 0 !important; }
+    .cv-links-section h2 { margin: 0 !important; padding: 0 !important; text-align: left; }
+    .cv-links-section .cv-links { text-align: right; white-space: nowrap; }
+    .cv-links-section ul { list-style: none; padding: 0 !important; margin: 0 !important; display: flex; gap: 1rem; }
+    .cv-links-section li { padding: 0 !important; margin: 0 !important; list-style: none; }
+    .cv-links-section a { display: inline-flex; align-items: center; justify-content: center; }
+    .cv-links-section .fab { font-size: 3rem; }
+  </style>
+
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+    rel="stylesheet"
+    media="screen, print"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    rel="stylesheet"
+    media="screen, print"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"
+    rel="stylesheet"
+    media="screen, print"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap"
+    rel="stylesheet"
+    media="screen, print"
+  />
+
+  <header class="row">
+    <div class="col">
+      <h1>Emir Herrera González</h1>
+        <div class="row">
+       </div>
+
+      <div class="row">
+      </div>
+    </div>
+  </header>
+  <section class="cv-links-section">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col-auto cv-links">
+        <ul>
+           <li>
+                  <a
+              href="https://github.com/emirhg"
+              title="GitHub"
+            >
+              <i
+                class="fab fa-github"
+                style=""
+              ></i>
+            </a>
+          </li>
+          <li>
+                  <a
+              href="https://www.linkedin.com/in/emir-herrera-235b2424/"
+              title="LinkedIn"
+            >
+              <i
+                class="fab fa-linkedin"
+                style=""
+              ></i>
+            </a>
+          </li>
+          <li>
+                  <a
+              href="https://es.wikiversity.org/wiki/Usuario:Emir.Herrera"
+              title="Building Columns"
+            >
+              <i
+                class="fas fa-building-columns"
+                style="font-size: 3rem;"
+              ></i>
+            </a>
+          </li>
+          <li>
+                  <a
+              href="https://www.researchgate.net/profile/Emir_Herrera_Gonzalez/publications"
+              title="Researchgate"
+            >
+              <i
+                class="fab fa-researchgate"
+                style=""
+              ></i>
+            </a>
+          </li>
+          <li>
+                  <a
+              href="https://cal.com/emir-herrera"
+              title="Calendar Days"
+            >
+              <i
+                class="fas fa-calendar-days"
+                style="font-size: 3rem;"
+              ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
-  <section id="research_and_development">
-    <h2>Publicaciones</h2>
-    <ul>
-      <li><a href="https://www.researchgate.net/profile/Emir_Herrera_Gonzalez/publications">ResearchGate</a></li>
-      <li><a href="https://github.com/emirhg/">Github</a></li>
-      <li><a href="https://es.wikiversity.org/wiki/Usuario:Emir.Herrera">Wikiversity</a></li>
+
+
+  <!--hr-->
+
+ 
+  <main>
+                    <section>
+          <ul class="">
+      <li><p><span class="entry-title"><a href="https://www.ianua.com.mx/">Hipertexto. <i class="fas fa-link"></i></a></span> Un sitio web estático bilingüe dedicado a cerrar la brecha entre la inteligencia artificial y natural a través de comunicación científica, educación ambiental y resiliencia comunitaria. Incluye guías exhaustivas sobre prácticas sostenibles, aprendizaje basado en desafíos y documentación de proyectos estructurada con alojamiento en GitHub Pages.</p></li>
+      <li><p><span class="entry-title"><a href="https://ianua.com.mx">Computo distribuido. <i class="fas fa-link"></i></a></span> Plataforma de gestión de infraestructura de producción que orquesta 7 servicios containerizados en Google Cloud. Implementé un sistema completo de proxy inverso con terminación TLS, resolución DNS, acceso VPN seguro, monitoreo de métricas y análisis web para 3+ dominios administrados.</p></li>
     </ul>
-  </section>
 
-  <section id="contact">
-    <h2>Contacto</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/emir-herrera-235b2424/">LinkedIn.com</a></li>
-      <li><a href="https://cal.com/emir-herrera">Cal.com</a></li>
-    </ul>
-  </section>
-
-    <img src="https://emirhg.goatcounter.com/count?p=/&title=Presentation">
-
-
-</BODY>
-</HTML>
+    </section>
+      <section>
+      <ul>
+        <li><p><span class="entry-title"><a href="https://www.researchgate.net/publication/268435915_Music_style_analysis_using_the_random_forest_algorithm">Análisis de Estilos Musicales Utilizando el Algoritmo Random Forest. <i class="fas fa-link"></i></a></span> Coautor de documento de investigación presentando un método autónomo para analizar estilos musicales utilizando el algoritmo de bosques aleatorios combinado con Modelos Ocultos de Markov y Transformada Discreta de Wavelet. El enfoque extrae características relacionadas con la frecuencia de piezas musicales para clasificar y generar melodías que se ajusten a estilos musicales específicos, con aplicaciones en modelos computacionales de diseño y creatividad computacional.</p></li>
+      </ul>
+    </section>
+          </main>
+</html>
